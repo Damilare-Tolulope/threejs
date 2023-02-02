@@ -1,0 +1,36 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  overflow-x: hidden;
+  font-family: Poppins;
+}
+
+.can {
+  z-index: 1;
+  position: absolute;
+  cursor: grab;
+}
+
+nav{
+  position: relative;
+  z-index: 2;
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff
+}
+
+.text {
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
